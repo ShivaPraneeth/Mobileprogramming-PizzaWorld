@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/vegpizza"
     tools:context=".Activity_Veggiepizza">
 
     <TextView
@@ -12,7 +13,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="132dp"
         android:text="Veggie Pizza"
+        android:textStyle="bold"
         android:textColor="#FFFCFC"
+        android:background="#AA000000"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -24,6 +27,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:textStyle="bold"
+        android:background="#AA000000"
         android:text="When you want to jazz up your cheese pizza with color and texture, veggies are the perfect topping. And you’re only limited by your imagination. Everything from peppers and mushrooms, to eggplant and onions make for an exciting and tasty veggie pizza."
         android:textColor="#FFFCFC"
         android:textSize="30sp"
@@ -40,5 +45,20 @@
         android:text="order"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/information" />
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="128dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginRight="165dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="80dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/order" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

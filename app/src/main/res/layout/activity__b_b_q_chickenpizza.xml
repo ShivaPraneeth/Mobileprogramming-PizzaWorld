@@ -13,6 +13,7 @@
         android:layout_marginTop="132dp"
         android:text="BBQ Chicken Pizza"
         android:textColor="#FFFCFC"
+        android:background="#AA000000"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -26,6 +27,7 @@
         android:layout_marginTop="32dp"
         android:text="If you love BBQ chicken and you love pizza, why not put them together? This has long been a cult favorite of sports fans and college kids. The chicken slathered over the top of a pie gives it a tangy, sweet flavor that can’t be beaten."
         android:textColor="#FFFCFC"
+        android:background="#AA000000"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.229"
@@ -41,4 +43,20 @@
         android:text="order"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/information" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="128dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginRight="165dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="17dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/order" />
 </androidx.constraintlayout.widget.ConstraintLayout>

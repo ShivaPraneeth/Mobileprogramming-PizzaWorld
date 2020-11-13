@@ -12,6 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="132dp"
         android:text="Supreme Pizza"
+        android:textStyle="bold"
+        android:background="#AA000000"
         android:textColor="#FFFCFC"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,6 +26,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:textStyle="bold"
+        android:background="#AA000000"
         android:text="When you can’t decide which toppings to get, it’s time for the supreme pizza. The “supreme” refers to the litany of toppings that come scattered on these pies, from sausage to vegetables to pepperoni. And it’s the combination of the flavors that really makes it sing."
         android:textColor="#FFFCFC"
         android:textSize="30sp"
@@ -40,6 +44,23 @@
         android:text="order"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/information" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="171dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginRight="171dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="15dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/order" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+android:background="@drawable/workpizza"
     tools:context=".Activity_Workspizza">
     <TextView
         android:id="@+id/Workspizza"
@@ -12,6 +12,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="132dp"
         android:text="The Worka Pizza"
+        android:textStyle="bold"
+        android:background="#AA000000"
         android:textColor="#FFFCFC"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,6 +26,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:textStyle="bold"
+        android:background="#AA000000"
         android:text="And when the supreme just isn’t enough, you’re ready for the works. It’s a step up in heartiness from the supreme. The “works” usually involves a wide variety of veggie toppings including onions, olives, and mushrooms, plus bacon and pepperoni."
         android:textColor="#FFFCFC"
         android:textSize="30sp"
@@ -41,6 +45,23 @@
         android:text="order"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/information" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="92dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginRight="165dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="18dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/order" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

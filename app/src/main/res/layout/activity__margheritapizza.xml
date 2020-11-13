@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/mar"
     tools:context=".Activity_Margheritapizza">
 
     <TextView
@@ -12,6 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="132dp"
         android:text="Margherita Pizza"
+        android:background="#AA000000"
+        android:textStyle="bold"
         android:textColor="#FFFCFC"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -24,6 +27,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:textStyle="bold"
+        android:background="#AA000000"
         android:text=" Deceptively simple, the Margherita pizza is made with basil, fresh mozzarella, and tomatoes. There’s a reason it’s an Italian staple and one of the most popular types of pizza in the country.."
         android:textColor="#FFFCFC"
         android:textSize="30sp"
@@ -31,6 +36,7 @@
         app:layout_constraintHorizontal_bias="0.229"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/margheritapizza" />
+
     <Button
         android:id="@+id/order"
         android:layout_width="100dp"
@@ -40,6 +46,21 @@
         android:text="order"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/information" />
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="128dp"
+        android:layout_marginEnd="165dp"
+        android:layout_marginLeft="158dp"
+        android:layout_marginRight="165dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="17dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/order" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
